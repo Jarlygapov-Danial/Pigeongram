@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+    <link rel="stylesheet" href="style.css"> 
+</head> 
+<body> 
+    <nav> 
+        <a><b>Pigeongram</b></a> 
+    </nav> 
+    <section id="posts"> 
+        <div id="postsBox"> 
+            <div id="firstPost" class="post"> 
+                <div class="avaBox"> 
+                    <img id="imgpost" class="ava" src="https://static.wikia.nocookie.net/lovecraft/images/2/29/Azathoth_the_blind_idiot_god.jpg/revision/latest?cb=20180305005840"> 
+                    <b>Plikus228</b> 
+                </div> 
+                <img class="img" src="https://celebrateurbanbirds.org/wp-content/uploads/2016/08/rock-pigeon-1024x1024.png"> 
+                <div class="likes"> 
+                    <img class="like" src="https://w7.pngwing.com/pngs/929/555/png-transparent-logo-facebook-like-button-like-cdr-angle-rectangle-thumbnail.png" onclick="like(this)">
+                    <p class="count">0</p>
+                </div> 
+                <div> 
+                    Pigeons originated from wild rock doves native to Europe, North Africa, and parts of Asia. They were domesticated thousands of years ago for their meat and later prized for their exceptional homing abilities. Pigeons have played significant roles throughout history, serving as reliable messengers in times of war and contributing to important scientific discoveries, including studies in genetics and animal behavior. 
+                </div> 
+                <div class ="commentInput"> 
+                    <input type="text" class="input">
+                    <button onclick="sendComment(this)">Post</button>
+                </div>
+                <div class="commentsBox">
+                </div>
+                
+            </div>     
+        </div> 
+    </section> 
+    <script src="script.js"></script> 
+</body> 
+</html>
